@@ -1,2 +1,2 @@
 # AngularMaps
-Miniatures wargame map generator in Angular
+Miniatures wargame map generator made with Angular and Phaser 3
