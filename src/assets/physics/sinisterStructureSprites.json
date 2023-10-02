@@ -1,0 +1,146 @@
+{
+	"textures": [
+		{
+			"image": "sinisterStructureSpirets.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 477,
+				"h": 181
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "altarOfKhaine.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 190,
+						"h": 182
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 169,
+						"h": 179
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 169,
+						"h": 179
+					}
+				},
+				{
+					"filename": "baneStone.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 230,
+						"h": 210
+					},
+					"spriteSourceSize": {
+						"x": 19,
+						"y": 19,
+						"w": 167,
+						"h": 160
+					},
+					"frame": {
+						"x": 172,
+						"y": 1,
+						"w": 167,
+						"h": 160
+					}
+				},
+				{
+					"filename": "towerOfBlood.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 238,
+						"h": 228
+					},
+					"spriteSourceSize": {
+						"x": 72,
+						"y": 69,
+						"w": 97,
+						"h": 90
+					},
+					"frame": {
+						"x": 341,
+						"y": 1,
+						"w": 97,
+						"h": 90
+					}
+				},
+				{
+					"filename": "hauntedMansion.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 230,
+						"h": 210
+					},
+					"spriteSourceSize": {
+						"x": 52,
+						"y": 71,
+						"w": 115,
+						"h": 77
+					},
+					"frame": {
+						"x": 341,
+						"y": 93,
+						"w": 115,
+						"h": 77
+					}
+				},
+				{
+					"filename": "charnelPit.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 80,
+						"h": 76
+					},
+					"spriteSourceSize": {
+						"x": 23,
+						"y": 20,
+						"w": 36,
+						"h": 36
+					},
+					"frame": {
+						"x": 440,
+						"y": 1,
+						"w": 36,
+						"h": 36
+					}
+				},
+				{
+					"filename": "idolOfGork.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 80,
+						"h": 76
+					},
+					"spriteSourceSize": {
+						"x": 25,
+						"y": 26,
+						"w": 31,
+						"h": 19
+					},
+					"frame": {
+						"x": 440,
+						"y": 39,
+						"w": 31,
+						"h": 19
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "3.0",
+		"smartupdate": "$TexturePacker:SmartUpdate:663718e25df8d54bd8f8b598ef625d92:87d009a0fe7ab2bc3bab3b874859e1b6:9942cd24a1e871ec681e2f874f9fa0e6$"
+	}
+}

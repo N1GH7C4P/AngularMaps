@@ -1,0 +1,4 @@
+<app-scenario-info *ngIf="activeScenario$" [activeScenario]="(activeScenario$ | async)"></app-scenario-info>
+<app-terrain-feature-chips [mapObjects]="(mapObjects$ | async)" class="horizontal-wide"></app-terrain-feature-chips>
+<button class="btn btn-primary btn-overlay" (click)="saveState()">Save Map</button>
+<button class="btn btn-primary" (click)="clearState()">Clear All Maps</button>

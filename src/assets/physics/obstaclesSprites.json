@@ -1,0 +1,125 @@
+{
+	"textures": [
+		{
+			"image": "obstaclesSprites.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 226,
+				"h": 162
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "blazingBarricade.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 228,
+						"h": 48
+					},
+					"spriteSourceSize": {
+						"x": 2,
+						"y": 0,
+						"w": 224,
+						"h": 48
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 224,
+						"h": 48
+					}
+				},
+				{
+					"filename": "blessedBulwark.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 228,
+						"h": 48
+					},
+					"spriteSourceSize": {
+						"x": 11,
+						"y": 2,
+						"w": 203,
+						"h": 34
+					},
+					"frame": {
+						"x": 1,
+						"y": 51,
+						"w": 203,
+						"h": 34
+					}
+				},
+				{
+					"filename": "ghostFence.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 204,
+						"h": 31
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 1,
+						"w": 203,
+						"h": 30
+					},
+					"frame": {
+						"x": 1,
+						"y": 87,
+						"w": 203,
+						"h": 30
+					}
+				},
+				{
+					"filename": "fence.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 200,
+						"h": 20
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 200,
+						"h": 20
+					},
+					"frame": {
+						"x": 1,
+						"y": 119,
+						"w": 200,
+						"h": 20
+					}
+				},
+				{
+					"filename": "wall.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 200,
+						"h": 20
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 200,
+						"h": 20
+					},
+					"frame": {
+						"x": 1,
+						"y": 141,
+						"w": 200,
+						"h": 20
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "3.0",
+		"smartupdate": "$TexturePacker:SmartUpdate:855dd41d7f96e3970653bbfb6d5c0ce8:b54d91f2bb1b708e1ad685f7081ec803:b513f5cf652f86c4ce3b8c720821b384$"
+	}
+}

@@ -1,0 +1,16 @@
+<ng-container *ngFor="let mo of mapObjects">
+    <mat-chip color="primary"
+      cdkOverlayOrigin #trigger="cdkOverlayOrigin">
+      <img matChipAvatar src="https://material.angular.io/assets/img/examples/shiba1.jpg" alt="an image of Terrain Feature."/>
+      <span (mouseenter)="mo.hovered = true" (mouseleave)="mo.hovered = false">{{mo.type.name}}</span>
+      <ng-template
+        cdkConnectedOverlay
+        [cdkConnectedOverlayOrigin]="trigger"
+        [cdkConnectedOverlayOpen]="mo.hovered">
+        <app-terrain-feature-card
+          *ngIf="mo.hovered === true"
+          [terrainFeature]="mo.type">
+        </app-terrain-feature-card>
+      </ng-template>
+    </mat-chip>
+  </ng-container>

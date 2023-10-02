@@ -1,0 +1,62 @@
+[
+  {
+    "id": 0,
+    "name": "Battleline",
+    "deployment": "Roll off to see which player picks the half of the table they will deploy in. The opponent will deploy in the other half. Players then take it in turn to place units on the table, using the alternating units method of deployment as described earlier in this chapter. Units may be placed anywhere in their deployment zone that is more than 12\" from the centre line.",
+    "winner": "Use victory points to determine the winner of the battle as described earlier in this chapter.",
+    "firstTurn": "Roll off after deployment to see which player takes the first turn. The player that finished deploying his army first adds +1 to his roll.",
+    "gameLength": "The battle will last for six game turns, or until a time limit agreed by the players is reached, whichever comes first.",
+    "battlefield": "Generate terrain normally",
+    "specialRules": ""
+  },
+  {
+    "id": 1,
+    "name": "Dawn Attack",
+    "deployment": "Roll off to see which player picks the half of the table they will deploy in. The opponent will deploy in the other half. The player that won the roll off must deploy his entire army first. Before deploying each unit, roll a dice and refer to the Deployment table to see where the unit must deploy – this represents them groggily making their way to the battlefield in the darkness just before dawn breaks. Units with the Scouts special rule do not roll on the table, and deploy using their own special rules after normal deployment is complete. Characters may either deploy on their own, rolling on the table like any other unit, or deploy as part of a unit they are allowed to join (state that the character will join the unit before rolling to see where the unit and character will deploy). Once the first player has deployed, his opponent must do likewise, rolling for each unit as described above.",
+    "winner": "Use victory points to determine the winner of the battle as described earlier in this chapter.",
+    "firstTurn": "After deployment, the player that set up second rolls a dice. On a roll of 6 he can choose who has the first turn. On a roll of 1-5 the player that set up first chooses who has the first turn.",
+    "gameLength": "The battle will last for six game turns, or until a time limit agreed by the players is reached, whichever comes first.",
+    "battlefield": "Generate terrain normally",
+    "specialRules": ""
+  },
+  {
+    "id": 2,
+    "name": "Battle for the pass",
+    "deployment": "Roll off to see which player picks the half of the table they want to deploy in. The opponent deploys in the other half. Note that in this pitched battle the game is fought down the length of the table rather than across its width, as shown in the deployment map below. Units may be placed anywhere in their half that is more than 12\" from the center line. Players take it in turn to place units on the table, using the alternating units method of deployment as described earlier in this chapter",
+    "winner": "Use victory points to determine the winner of the battle as described earlier in this chapter.",
+    "firstTurn": "Roll off after deployment to see which player receives the first turn. The player that finished deploying his army first adds +1 to his roll.",
+    "gameLength": "Game length\nThe battle will last for six game turns, or until a time limit agreed by the players is reached, whichever comes first.",
+    "battlefield": "Set up terrain as described earlier in this chapter. It’s worth keeping in mind when setting up the terrain that the battle will be fought down the length of the table, in a narrow pass with impassable mountains just off each of the long table edges.",
+    "specialRules": "Special rules\nBottleneck: The battle is being fought in a narrow pass enclosed by high cliffs. Because of this, the long table edges count as impassable terrain. Following the normal rules, fleeing units can force a way through the impassable terrain and disappear from the table (or die trying!). Otherunits (including reinforcements) may not enter or leave via a long table edge unless they are Ethereal or a Flyer. This means that pursuing or overrunning units, other than Ethereals and Flyers, must stop 1\" away from the long table edges."
+  },
+  {
+    "id": 3,
+    "name": "Blood and glory",
+    "deployment": "Roll off to see which player chooses the half of the table they will deploy in. The opponent will deploy in the other half. Players then take it in turns to place units on the table, using the alternating units method of deployment as described earlier in this chapter. Units may be placed anywhere in their half of the table that is more than 9\" from the center line, and more than 9\" away from either narrow table edge.",
+    "winner": "The first army to break the enemy wins the battle (see Game Length). If neither army has broken by the end of the game, or if both were to break simultaneously, use victory points to determine the winner as described earlier in this chapter. ",
+    "firstTurn": "Roll off after deployment to see which player receives the first turn. The player that finished deploying his army first adds +1 to his roll.",
+    "gameLength": "The game ends at the end of the 6th game turn or as soon as an army breaks. An army immediately breaks when its Fortitude is equal to or less than its Breaking Point.",
+    "battlefield": "Generate terrain normally",
+    "specialRules": "Breaking Point: An army’s breaking point is equal to one for every thousand points in the army, rounding any fractions up. So, an army of up to 1,000 points has a breaking point of one, an army worth 1,001 to 2,000 points has a breaking point of two, etc. Fortitude: Any army’s fortitude is equal to the current number of standards in the army (including the battle standard), plus two for the General. Fleeing units and units that are only temporarily off-table still count."
+  },
+  {
+    "id": 4,
+    "name": "Meeting Engagement",
+    "deployment": "In this scenario the table is divided into two halves from corner to corner, as shown on the deployment map. The players roll off and the winner chooses the two opposite corners to be used and which half of the table each player will deploy in. The player that won the roll-off must deploy their entire army first. Before deploying the army, roll a dice for each separate unit, including each individual character and war machine. On a roll of 1 the unit must be held back as reserves. After all units have been rolled for, those that are not reserves can be deployed in their side’s deployment zone, anywhere that is more than 6\" away from the centre line. Once the first player had deployed, his opponent does likewise, in exactly the same manner",
+    "winner": "Use victory points to determine the winner of the battle as described earlier in this chapter.",
+    "firstTurn": "After deployment, the player that set up second rolls a dice. On a roll of 6 they can choose who has the first turn. On a roll of 1-5 the player that set up first chooses who has the first turn.",
+    "gameLength": "The battle will last for six game turns, or until a time limit agreed by the players is reached, whichever comes first.",
+    "battlefield": "Generate terrain normally",
+    "specialRules": "Reserves: Reserves are not deployed at the start of the battle. Instead they can enter play on any turn of their players choosing, using the reinforcements rules as described in the Movement chapter. They may enter at any point on the long table edge of their deployment zone."
+  },
+  {
+    "id": 5,
+    "name": "The Watchtower",
+    "deployment": "Roll off to see who controls the watchtower at the start of the battle. The player that controls the tower may deploy a single Core infantry unit of no more than 20 models in the tower if they wish to do so. The unit is not allowed to voluntarily leave the tower until after the first game turn of the battle has been completed. The opposing player then picks the half of the table they will deploy in. Players then take it in turn to place units on the table, starting with the player that doesn’t control the watchtower, using the alternating units method of deployment as described earlier in this chapter. Units may be placed anywhere in their half that is more than 12\" from the centre line. The Watchtower A watchtower is a useful and multi-purpose piece of Warhammer terrain. There are a number of suitable Citadel models available to represent the watchtower",
+    "winner": "The player who controls the watchtower at end of the game wins.",
+    "firstTurn": "TODO",
+    "gameLength": "TODO",
+    "battlefield": "Set up the watchtower as described below, and then set up any remaining terrain as described earlier in this chapter. The watchtower counts as the first of the D6+4 terrain pieces that must be set up. The Watchtower A building must be set up at the centre of the table. Any building model can be used, but there are a number of Citadel models which are ideal. If you don’t have a building model, use any other terrain feature of your choice.",
+    "specialRules": "TODO"
+  }
+]

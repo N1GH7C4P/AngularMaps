@@ -1,0 +1,104 @@
+{
+	"textures": [
+		{
+			"image": "hillSprites.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 459,
+				"h": 272
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "anvilOfVaul.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 231,
+						"h": 150
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 231,
+						"h": 150
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 231,
+						"h": 150
+					}
+				},
+				{
+					"filename": "templeOfSkulls.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 224,
+						"h": 143
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 224,
+						"h": 143
+					},
+					"frame": {
+						"x": 234,
+						"y": 1,
+						"w": 224,
+						"h": 143
+					}
+				},
+				{
+					"filename": "screeSlope.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 224,
+						"h": 143
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 19,
+						"w": 219,
+						"h": 122
+					},
+					"frame": {
+						"x": 234,
+						"y": 146,
+						"w": 219,
+						"h": 122
+					}
+				},
+				{
+					"filename": "ordinaryHill.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 224,
+						"h": 143
+					},
+					"spriteSourceSize": {
+						"x": 15,
+						"y": 9,
+						"w": 193,
+						"h": 118
+					},
+					"frame": {
+						"x": 1,
+						"y": 153,
+						"w": 193,
+						"h": 118
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "3.0",
+		"smartupdate": "$TexturePacker:SmartUpdate:ccfd60d421412dc32fdad016e917ae63:41c7c63cf6161d25fd0c3fd640860f83:85d5182b269dd96f309c884fe547fc81$"
+	}
+}

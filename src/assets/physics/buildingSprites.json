@@ -1,0 +1,41 @@
+{
+	"textures": [
+		{
+			"image": "buildingSprites.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 168,
+				"h": 99
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "building.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 170,
+						"h": 97
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 166,
+						"h": 97
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 166,
+						"h": 97
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "3.0",
+		"smartupdate": "$TexturePacker:SmartUpdate:6f04c862619ed1af7a44b9afab9e1b92:2a078371ed2816ea25d3d178a9c7e588:e0e9cfab849a56b39e6fdd1175104de8$"
+	}
+}

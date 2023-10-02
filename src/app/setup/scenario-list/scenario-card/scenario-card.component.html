@@ -1,0 +1,16 @@
+<mat-card class="example-card">
+  <mat-card-header>
+    <div mat-card-avatar class="example-header-image"></div>
+    <mat-card-title>{{scenario.name}}</mat-card-title>
+    <mat-card-subtitle>Standard Scenario {{scenario.id}}</mat-card-subtitle>
+  </mat-card-header>
+  <mat-card-content>
+    <h2>{{scenario.name}}</h2>
+    <p><b>Deployment:</b> {{scenario.deployment}}</p>
+    <p><b>How to determine Winner?</b> {{scenario.winner}}</p>
+    <p><b>Who gets the first Turn?</b> {{scenario.firstTurn}}</p>
+    <p><b>Length of the Game </b>{{scenario.gameLength}}</p>
+    <p><b>How to generate battlefield? </b> {{scenario.battlefield}}</p>
+    <p><b>Game Special Rules </b>{{scenario.specialRules}}</p>
+  </mat-card-content>
+</mat-card>

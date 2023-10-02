@@ -1,0 +1,249 @@
+[
+  {
+  "id": 0,
+  "type_id": 0,
+  "name": "Settlement Of Order",
+  "type": "Settlement Of Order",
+  "description": "Such orderly, wow!"
+  },
+  {
+    "id": 1,
+    "type_id": 1,
+    "name": "Grail Chapel",
+    "type": "Steadfast Sanctum",
+    "description": "All units belonging to an army from the Forces of Order within 6 inches of a Grail Chapel have the Regeneration (6+) special rule. Bretonnian units within 6 of a Grail Chapel also have the Stubborn special rule."
+  },
+  {
+    "id": 2,
+    "type_id": 1,
+    "name": "Acropolis Of Heroes",
+    "type": "Steadfast Sanctum",
+    "description": "Units within 6 inches of the Acropolis of Heroes are Stubborn. A unit garrisoning the Acropolis of Heroes gets +1 to hit in close combat."
+  },
+  {
+    "id": 3,
+    "type_id": 1,
+    "name": "Wizards Tower",
+    "type": "Steadfast Sanctum",
+    "description": "A Wizard who is within 3 inches of the tower at the start of the Magic phase is assumed to ransack the tower’s library in search of additional spells – he is treated as knowing all the spells from his chosen lore(s) of magic for that phase. If more than one Wizard is within 3 inches, randomly choose which one has control of the tower at the start of each Magic phase (no room can hold two wizardly egos in search of knowledge)"
+  },
+  {
+    "id": 4,
+    "type_id": 1,
+    "name": "Sigmarite Shrine",
+    "type": "Steadfast Sanctum",
+    "description": "Any models belonging to an army from the Forces of Destruction must re-roll successful ward saves if they are within 6 inches of the Sigmarite Shrine."
+  },
+  {
+    "id": 5,
+    "type_id": 1,
+    "name": "Elven Waystone",
+    "type": "Steadfast Sanctum",
+    "description": "Any Wizard within 6 inches of an Elven Waystone adds +1 to his channelling attempts."
+  },
+  {
+    "id": 6,
+    "type_id": 1,
+    "name": "Dwarf Brewhouse",
+    "type": "Steadfast Sanctum",
+    "description": "All units within 6 inches of a Dwarf Brewhouse have the Immune to Psychology and Stubborn special rules (the rich blend of hops, malts and secret ingredients renders them almost totally insensate to mortal fears). Dwarf units within 6 inches of the brewhouse are so fanatically defensive of it that they are Unbreakable, but must first pass a Leadership test, with a -3 modifier, if they want to move out of range of the building’s effects"
+  },
+  {
+    "id": 7,
+    "type_id": 2,
+    "name": "Altar Of Khaine",
+    "type": "Sinister Structure",
+    "description": "All units within 6 inches of an Altar of Khaine are subject to the rules for Frenzy – as soon as a unit moves out of range, the Frenzy is lost."
+  },
+  {
+    "id": 8,
+    "type_id": 2,
+    "name": "Charnel Pit",
+    "type": "Sinister Structure",
+    "description": "All units within 6 inches of the charnel pit suffer a -1 penalty to their Leadership. Undead units within 6 inches of the charnel pit have the Regeneration (6+) special rule to represent their easy access to replacement parts. "
+  },
+  {
+    "id": 9,
+    "type_id": 2,
+    "name": "Bane Stone",
+    "type": "Sinister Structure",
+    "description": "Hits made against units within 6 inches of a Bane Stone have a +1 bonus to wound. "
+  },
+  {
+    "id": 10,
+    "type_id": 2,
+    "name": "Haunted Mansion",
+    "type": "Sinister Structure",
+    "description": "A haunted mansion is normally a building of some kind, but there’s no reason why it can’t be a ruin, or a cave. At the end of the Shooting phase, all units within 6 inches of the Haunted Mansion suffers D6 Strength 1 hits to represent the spectral strikes of the mansion’s guardians. Due to the ghostly nature of these attacks, armour saves cannot be taken against them. A unit inside the haunted mansion causes Fear. "
+  },
+  {
+    "id": 11,
+    "type_id": 2,
+    "name": "Idol Of Gork",
+    "type": "Sinister Structure",
+    "description": "Any warriors fighting under the grim gaze of Mork (or possibly Gork) are infused with the greenskin gods’ lust for battle. Units that start the turn within 6 inches of the Idol can re-roll a failed charge distance roll."
+  },
+  {
+    "id": 12,
+    "type_id": 2,
+    "name": "Tower Of Blood",
+    "type": "Sinister Structure",
+    "description": "Units within 6 inches of the Tower of Blood have the Hatred special rule. Units from the Forces of Destruction within 6 inches of the Tower of Blood also have the Frenzy special rule – as soon as a unit moves out of range, the Hatred/Frenzy is lost."
+  },
+  {
+    "id": 13,
+    "type_id": 3,
+    "name": "Ordinary Hill",
+    "type": "Hill",
+    "description": "Just an ordinary hill."
+  },
+  {
+    "id": 14,
+    "type_id": 3,
+    "name": "Scree Slope",
+    "type": "Hill",
+    "description": "Models charging, marching, fleeing, pursuing or overrunning up, down or through a scree slope must take a Dangerous Terrain test."
+  },
+  {
+    "id": 15,
+    "type_id": 3,
+    "name": "Temple Of Skulls",
+    "type": "Hill",
+    "description": "At the beginning of each player turn, any character or champion on the Temple of Skulls can choose to embrace the favour of the Chaos Gods. If he does, roll a D6. On a roll of 2-6, one randomly chosen characteristic increases by D3 points. On a 1, the Chaos Gods take his soul (or his purehearted comrades turn on him) – remove the model as a casualty with no saves of any kind allowed"
+  },
+  {
+    "id": 16,
+    "type_id": 3,
+    "name": "Anvil Of Vaul",
+    "type": "Hill",
+    "description": "Any units within 6 of an Anvil of Vaul hasboth magical attacks and the flaming attacks special rules."
+  },
+  {
+    "id": 17,
+    "type_id": 4,
+    "variant_id": 0,
+    "name": "Building",
+    "type": "Building",
+    "description": "Just an ordinary small building. Up to 5 occupying models can shoot through the windows."
+  },
+  {
+    "id": 18,
+    "type_id": 5,
+    "name": "Fence",
+    "type": "Obstacles",
+    "description": "Fences are obstacles that grant soft cover to units behind them, and a -1 To Hit modifier to charging models in base contact with them."
+  },
+  {
+    "id": 19,
+    "type_id": 5,
+    "name": "Wall",
+    "type": "Obstacles",
+    "description": "Though such a wall is seldom more than chest-height, it makes for an incredibly effective impromptu defensive position, and can save the warriors sheltering in its lee from otherwise fatal encounters with arrows, crossbow bolts and buckshot.  Walls are obstacles that grant hard cover to units behind them, and a -1 To Hit modifier to charging models in base contact with them"
+  },
+  {
+    "id": 20,
+    "type_id": 5,
+    "name": "Blazing Barricade",
+    "type": "Obstacles",
+    "description": "Blazing barricades grant soft cover to units behind them. If a unit completes a charge against a defended blazing barricade, it immediately suffers one Strength 4 hit on each of its models in contact with the obstacle."
+  },
+  {
+    "id": 21,
+    "type_id": 5,
+    "name": "Blessed Bulwark",
+    "type": "Obstacles",
+    "description": "Blessed bulwarks are obstacles that grant hard cover to units behind them, and a -1 To Hit modifier to charging models in base contact with them. In addition to this, models from the Forces of Destruction (see the Allies chapter) that are in base contact with the obstacle must halve their Initiative."
+  },
+  {
+    "id": 22,
+    "type_id": 5,
+    "name": "Ghost Fence",
+    "type": "Obstacles",
+    "description": "Ghost Fences are obstacles that grant soft cover to units behind them. A unit that is defending a Ghost Fence causes Fear in the first round of any close combat."
+  },
+  {
+    "id": 23,
+    "type_id": 6,
+    "name": "Mysterious Forest",
+    "type": "Mysterious Forest",
+    "description": "Roll when entered to determine the type of mysterious forest."
+  },
+  {
+    "id": 24,
+    "type_id": 7,
+    "name": "Sinister Statue",
+    "type": "Magical Mystery",
+    "description": "At the start of each player turn, roll a dice for every unit within 6 inches of the Sinister Statue.   On a 4 or more, nothing happens – the statue either doesn’t notice the unit, or recognises it as an ally of its forgotten master. On a 1-3, beams of light blaze out of its stone eyes – the unit suffers D6 Strength 4 hits."
+  },
+
+  {
+    "id": 25,
+    "type_id": 7,
+    "name": "Arcane ruins",
+    "type": "Magical Mystery",
+    "description": "Any wizard within 6 inches of an arcane ruin can choose to roll up to four dice when channelling, rather than one. However, if three or more dice come up as 6s, the wizard must immediately roll on the Miscast table."
+  },
+  {
+    "id": 26,
+    "type_id": 7,
+    "name": "Nehekharan Sphynx",
+    "type": "Magical Mystery",
+    "description": "At the start of each player turn, the player whose turn it is can choose one of his characters within 6 inches of the Nehekharan Sphynx to challenge the spirit to a riddling contest. The challenger must take an Initiative test. If the test is failed, the Sphynx devours part of the challenger’s soul and the model suffers a wound, with no armour saves allowed. If the test is passed, the challenger receives one of the following special rules, determined randomly, for the rest of the game: Devastating Charge, Heroic Killing Blow or Loremaster (Death) – this last one has no benefit to non-Wizards (i.e. only Wizards can actually use the spells!) but that doesn’t stop the Sphynx bestowing it inappropriately."
+  },
+  {
+    "id": 27,
+    "type_id": 7,
+    "name": "Sorcerous Portal",
+    "type": "Magical Mystery",
+    "description": "At the start of the Magic phase, after power and dispel dice have been generated, but before spells are cast, the sorcerous portal belches forth energy in the form of a spell. Roll 2D6 on the table below each time to see what spell is cast"
+  },
+  {
+    "id": 28,
+    "type_id": 7,
+    "name": "Wyrding Well",
+    "type": "Magical Mystery",
+    "description": "Providing it is not in combat, a unit within 3 inches can drink from the well at the end of its Movement phase. Roll a D6 on the following table to discover the outcome of the unit’s incautious imbibing:"
+  },
+  {
+    "id": 29,
+    "type_id": 7,
+    "name": "Magic Circle",
+    "type": "Magical Mystery",
+    "description": "Units within 6 inches of the Magic Circle have the Magic Resistance (2) special rule."
+  },
+  {
+    "id": 30,
+    "type_id": 8,
+    "name": "Mysterious River",
+    "type": "Mysterious River",
+    "description": "Roll when entered to determine the type of mysterious river."
+  },
+  {
+    "id": 31,
+    "type_id": 9,
+    "name": "Earthblood Mere",
+    "type": "Marsh",
+    "description": "Any unit with the majority of its models within the mere has Regeneration (6+)"
+  },
+  {
+    "id": 32,
+    "type_id": 9,
+    "name": "Khemrian Quicksand",
+    "type": "Marsh",
+    "description": "A monster, monstrous infantry or monstrous cavalry model that fails its dangerous terrain test for Khemrian Quicksand is removed as a casualty with no saves of any kind allowed."
+  },
+  {
+    "id": 33,
+    "type_id": 9,
+    "name": "Mist Wreathed Swamp",
+    "type": "Marsh",
+    "description": "Mist Wreathed Swamp','If the majority of a unit’s models are wholly within a mist-wreathed swamp, the unit counts as being in hard cover.   However, at the end of each Movement phase, the unit must pass an Initiative test, or have D6 models dragged to their doom by the monstrous Fimir lurking in the mist (the victims are selected in the same manner as the allocation of shooting hits)."
+  },
+  {
+    "id": 34,
+    "type_id": 10,
+    "name": "Encampment of Destruction",
+    "type": "Encampment of Destruction",
+    "description": "Such destruction!"
+  }
+]

@@ -1,0 +1,24 @@
+<div class="center">
+  <div class="container">
+    <div class="row">
+      <mat-icon matListItemIcon class="mapIcon col-sm-1" cdkOverlayOrigin #anotherTrigger="cdkOverlayOrigin">streetview</mat-icon>
+      <div class="mapTitle col-sm-3" matListItemTitle cdkOverlayOrigin #trigger="cdkOverlayOrigin" (mouseover)="hovered = true" (mouseleave)="hovered = false">{{ gameState.activeScenario.name }}</div>
+      <div class="mapCreated col-sm-2" matListItemLine>{{ gameState.created | date }}</div>
+      <div class="numberOfTerrainpieces col-sm-3" matListItemLine (click)="terrainPiecesClicked=!terrainPiecesClicked"> {{gameState.mapObjects.length}} Terrain Pieces</div>
+      <div class="col-sm-1"><button class="btn btn-primary" (click)="onLoadMap(gameState)">Load</button></div>
+      <div class="col-sm-1"><button class="btn btn-danger" (click)="onDeleteMap(gameState.id)">Delete</button></div>
+    </div>
+  </div>
+  <ng-template
+    cdkConnectedOverlay
+    [cdkConnectedOverlayOrigin]="trigger"
+    [cdkConnectedOverlayOpen]="hovered">
+    <app-scenario-card [scenario]="gameState.activeScenario"></app-scenario-card>
+  </ng-template>
+  <ng-template
+    cdkConnectedOverlay
+    [cdkConnectedOverlayOrigin]="anotherTrigger"
+    [cdkConnectedOverlayOpen]="terrainPiecesClicked">
+    <app-terrain-feature-card-list [mapObjects]="gameState.mapObjects"></app-terrain-feature-card-list>
+  </ng-template>
+</div>

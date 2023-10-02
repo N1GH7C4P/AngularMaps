@@ -1,0 +1,83 @@
+{
+	"textures": [
+		{
+			"image": "marshSprites.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 456,
+				"h": 90
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "earthbloodMere.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 150,
+						"h": 88
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 150,
+						"h": 88
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 150,
+						"h": 88
+					}
+				},
+				{
+					"filename": "mistWreathedSwamp.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 150,
+						"h": 88
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 150,
+						"h": 88
+					},
+					"frame": {
+						"x": 153,
+						"y": 1,
+						"w": 150,
+						"h": 88
+					}
+				},
+				{
+					"filename": "khemrianQuicksand.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 150,
+						"h": 88
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 3,
+						"w": 150,
+						"h": 85
+					},
+					"frame": {
+						"x": 305,
+						"y": 1,
+						"w": 150,
+						"h": 85
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "3.0",
+		"smartupdate": "$TexturePacker:SmartUpdate:e7bc2d430641c4d53190045e1b9a3804:2be52a4287199398eb44544b2b5b66a6:0b06baf5595f45483313dc177b4521d7$"
+	}
+}

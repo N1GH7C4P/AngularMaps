@@ -1,0 +1,23 @@
+
+
+<div class="container">
+  <div class="row">
+    <div class="col-sm">
+      <h2>Table Dimensions</h2>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-sm">
+      <label>Table width: {{width}}'</label>
+      <mat-slider [min]='min' [max]='max'>
+        <input id="sliderWidth" value="4" matSliderThumb [(ngModel)]="width">
+      </mat-slider>
+    </div>
+    <div class="col-sm">
+      <label>Table length: {{length}}'</label>
+      <mat-slider [min]='min' [max]='max'>
+        <input id="sliderLength" value="4" matSliderThumb [(ngModel)]="length">
+      </mat-slider>
+    </div>
+  </div>
+</div>

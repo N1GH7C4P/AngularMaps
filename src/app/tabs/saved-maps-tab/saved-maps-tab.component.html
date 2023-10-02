@@ -1,0 +1,3 @@
+<mat-list-item *ngFor="let gameState of (gameStates$ | async)">
+  <app-map-item [gameState]="gameState"></app-map-item>
+</mat-list-item>

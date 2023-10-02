@@ -1,0 +1,36 @@
+
+  <h2>Enabled Terrain Features</h2>
+  <div *ngFor="let option of options">
+    <span>
+      <mat-checkbox
+        [checked]="option.suboptionsComplete"
+        [color]="option.color"
+        [indeterminate]="someComplete(option)"
+        (change)="setAll($event.checked, option)">
+        {{option.terrainFeature.type}}
+      </mat-checkbox>
+    </span>
+    <span>
+      <ul>
+        <li *ngFor="let suboption of option.suboptions">
+          <mat-checkbox
+            [(ngModel)]="suboption.completed"
+            [color]="suboption.color"
+            (ngModelChange)="updateAllComplete(option)"
+            cdkOverlayOrigin #trigger="cdkOverlayOrigin">
+          <span (mouseover)="suboption.hovered = true" (mouseleave)="suboption.hovered = false">{{suboption.terrainFeature.name}}</span>
+          <ng-template
+            cdkConnectedOverlay
+            [cdkConnectedOverlayOrigin]="trigger"
+            [cdkConnectedOverlayOpen]="suboption.hovered">
+            <app-terrain-feature-card
+              *ngIf="suboption.hovered === true"
+              [terrainFeature]="suboption.terrainFeature">
+            </app-terrain-feature-card>
+          </ng-template>
+          </mat-checkbox>
+        </li>
+      </ul>
+    </span>
+  </div>
+

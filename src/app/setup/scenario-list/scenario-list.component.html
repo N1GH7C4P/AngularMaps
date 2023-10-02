@@ -1,0 +1,21 @@
+<h2>Enabled Scenarios</h2>
+<div *ngFor="let option of options">
+  <span>
+    <mat-checkbox
+      [checked]="option.completed"
+      [color]="option.color"
+      (change)="setComplete($event.checked, option)">
+      <span (mouseover)="option.hovered = true" (mouseleave)="option.hovered = false" cdkOverlayOrigin #trigger="cdkOverlayOrigin">{{option.scenario.name}}</span>
+      <ng-template
+        cdkConnectedOverlay
+        [cdkConnectedOverlayOrigin]="trigger"
+        [cdkConnectedOverlayOpen]="option.hovered">
+        <app-scenario-card *ngIf="option.hovered"
+        [scenario]="option.scenario">
+      </app-scenario-card>
+      </ng-template>
+    </mat-checkbox>
+  </span>
+  <span>
+  </span>
+</div>

@@ -1,0 +1,26 @@
+<div class="container">
+  <div class="row">
+    <div class="col-sm">
+      <h2>Number of Terrain Pieces</h2>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-sm">
+      <div>
+        <div *ngIf="startValue === endValue">
+          Generating exactly {{startValue}} terrain pieces.
+        </div>
+        <div *ngIf="startValue !== endValue">
+          <label>Generating between {{startValue}} and {{endValue}} terrain pieces.</label>
+        </div>
+      </div>
+      <mat-slider [min]='min' [max]='max' [disabled]="disabled">
+        <input id="sliderMin" value="2" matSliderStartThumb [(ngModel)]="startValue">
+        <input id="sliderMax" value="12" matSliderEndThumb [(ngModel)]="endValue">
+      </mat-slider>
+    </div>
+  </div>
+</div>
+
+
+

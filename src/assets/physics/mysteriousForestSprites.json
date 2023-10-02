@@ -1,0 +1,41 @@
+{
+	"textures": [
+		{
+			"image": "mysteriousForestSprites.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 202,
+				"h": 154
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "mysteriousForest.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 200,
+						"h": 152
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 200,
+						"h": 152
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 200,
+						"h": 152
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "3.0",
+		"smartupdate": "$TexturePacker:SmartUpdate:fd3f49c15780a7b62aa98c88cebb3428:9fb268db845c3a67412efb41ab4042d0:23446177352214776b1b9e1f5af255d8$"
+	}
+}

@@ -1,0 +1,16 @@
+.mapTitle, .mapCreated, .numberOfTerrainpieces
+{
+  margin-top: 12px;
+}
+
+button
+{
+  margin-top: 2px;
+}
+
+.mapIcon
+{
+  margin-top: 10px;
+  margin-right: 5px;
+  transform: scale(1.5);
+}

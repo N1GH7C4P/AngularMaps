@@ -1,0 +1,6 @@
+.horizontal-wide {
+  display: flex;
+  justify-content: left;
+  flex-wrap:wrap;
+  max-width: 800px;
+}

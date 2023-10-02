@@ -1,0 +1,146 @@
+{
+	"textures": [
+		{
+			"image": "magicalMysterySprites.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 244,
+				"h": 256
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "sorcerousPortal.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 100,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 100,
+						"h": 32
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 100,
+						"h": 32
+					}
+				},
+				{
+					"filename": "wyrdingWell.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 80,
+						"h": 67
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 80,
+						"h": 67
+					},
+					"frame": {
+						"x": 103,
+						"y": 1,
+						"w": 80,
+						"h": 67
+					}
+				},
+				{
+					"filename": "arcaneRuins.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 94,
+						"h": 97
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 90,
+						"h": 97
+					},
+					"frame": {
+						"x": 1,
+						"y": 35,
+						"w": 90,
+						"h": 97
+					}
+				},
+				{
+					"filename": "nehekharanSphynx.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 150,
+						"h": 78
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 150,
+						"h": 78
+					},
+					"frame": {
+						"x": 93,
+						"y": 70,
+						"w": 150,
+						"h": 78
+					}
+				},
+				{
+					"filename": "magicCircle.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 100,
+						"h": 99
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 100,
+						"h": 99
+					},
+					"frame": {
+						"x": 1,
+						"y": 150,
+						"w": 100,
+						"h": 99
+					}
+				},
+				{
+					"filename": "sinisterStatue.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 150,
+						"h": 121
+					},
+					"spriteSourceSize": {
+						"x": 7,
+						"y": 7,
+						"w": 128,
+						"h": 105
+					},
+					"frame": {
+						"x": 103,
+						"y": 150,
+						"w": 128,
+						"h": 105
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "3.0",
+		"smartupdate": "$TexturePacker:SmartUpdate:9f71546343969fd08a54d08548bc0f3b:851ffad816f641a24e3c22d665f4a84f:2059e04668424a7023f45fd3e7a37c63$"
+	}
+}
